@@ -20,7 +20,7 @@ const documentReady = () => {
   const partner = prompt('🥰 DIME TU NOMBRE 🥰');
   heroTitle.innerHTML += partner + ' ❤';
 
-  heroButtonSi.addEventListener('click', nowZomosAmigos);
+  heroButtonSi.addEventListener('click', nowZomosNobios);
   heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
 };
 
