@@ -6,9 +6,9 @@ const documentReady = () => {
   const heroButtonNo = document.querySelector('#heroButtonNo');
 
   const nowZomosNobios = () => {
-    alert('💞 LLEGASTE DE UNA FORMA ESPECIAL!!!! MARYJEY 💞');
-    alert('😱 ERES LA MÁS HERMOSA POR ESO TE MANDO ESTO!😱');
-    location.href = 'https://www.youtube.com/watch?v=13jQjFQmTFw&ab_channel=BlueCard';
+    alert(' LLEGASTE DE UNA FORMA ESPECIAL!!!! JASMIN');
+    alert('😱 ERES UNA BUENA PERSONA POR ESO TE MANDO ESTO!😱');
+    location.href = 'https://www.youtube.com/watch?v=zkPCe5FHbDI';
   };
 
   const evitarKCRompanMyBobo = () => {
@@ -20,7 +20,7 @@ const documentReady = () => {
   const partner = prompt('🥰 DIME TU NOMBRE 🥰');
   heroTitle.innerHTML += partner + ' ❤';
 
-  heroButtonSi.addEventListener('click', nowZomosNobios);
+  heroButtonSi.addEventListener('click', nowZomosAmigos);
   heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
 };
 
